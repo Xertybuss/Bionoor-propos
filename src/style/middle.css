@@ -1,0 +1,130 @@
+body {
+    background-color: #ede9e8;
+}
+
+.first-section {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-section {
+    width: 40%;
+}
+
+.text-section > h1 {
+    font-family: 'Playfair', serif;
+}
+
+.first-section > img {
+    height: 350px;
+}
+
+.first-section > .text-section > .intro {
+    color: rgb(106, 141, 102);
+    font-size: 15px;
+} 
+
+.first-section > .text-section > .content {
+    line-height: 25px;
+}
+
+.first-section > .text-section > .stats {
+    display: flex;
+    list-style: none;
+}
+
+.stats > li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.stats > li > .value {
+    font-size: 40px;
+    color: rgb(106, 141, 102);
+    height: 0;
+}
+
+.stats > li > .title {
+    color: rgb(80, 80, 80);
+}
+
+.second-section {
+    margin-top: 80px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-section > h1 {
+    font-family: 'Playfair', serif;
+    color: white;
+}
+
+.care {
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+}
+
+.second-section > .cards-one, .second-section > .cards-two{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.second-section > .cards-one > .card, .second-section > .cards-two > .card {
+    margin: 0px 10px;
+    height: 245px;
+    width:  550px;
+    background-color: rgb(106, 141, 102);
+    border-radius: 8px;
+}
+
+.second-section > .cards-one > .card > h1, .second-section > .cards-two > .card  > h1 {
+    color: white;
+    font-family: 'Playfair', serif;
+}
+
+.second-section > .cards-one > .card > p, .second-section > .cards-two > .card > p {
+    color: white;
+    line-height: 23px;
+}
+
+.third-section {
+    margin: 180px 0px;
+}
+
+.third-section > h1 {
+    font-family: 'Playfair', serif;
+}
+
+.third-section > .cards {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.third-section > .cards > .card {
+    width: 155px;
+    height: 180px;
+    margin: 0px 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.third-section > .cards > .card:hover {
+    background-color: #6d8d69;
+    color: white;
+}
